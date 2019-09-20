@@ -1,0 +1,10 @@
+127.0.0.1 - - [15/Aug/2019:23:42:59 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [15/Aug/2019:23:43:01 +0530] "GET /web-customer-tracker/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [15/Aug/2019:23:43:02 +0530] "GET /web-customer-tracker/customer/list HTTP/1.1" 200 2645
+0:0:0:0:0:0:0:1 - - [15/Aug/2019:23:43:02 +0530] "GET /web-customer-tracker/resources/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Aug/2019:23:51:38 +0530] "GET /web-customer-tracker/customer/list HTTP/1.1" 200 2645
+0:0:0:0:0:0:0:1 - - [15/Aug/2019:23:51:38 +0530] "GET /web-customer-tracker/resources/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Aug/2019:23:51:38 +0530] "GET /web-customer-tracker/customer/list HTTP/1.1" 200 2645
+0:0:0:0:0:0:0:1 - - [15/Aug/2019:23:51:38 +0530] "GET /web-customer-tracker/resources/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Aug/2019:23:51:42 +0530] "GET /web-customer-tracker/customer/showFormForAdd HTTP/1.1" 200 321
+0:0:0:0:0:0:0:1 - - [15/Aug/2019:23:51:42 +0530] "GET /web-customer-tracker/resources/css/style.css HTTP/1.1" 304 -

@@ -1,0 +1,18 @@
+package com.raghu.practice.threads;
+
+public class ThreadDemo extends Thread {
+
+	public void run() {
+		System.out.println("Current Thread is "+Thread.currentThread());
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ThreadDemo td = new ThreadDemo();
+		ThreadDemo td1 = new ThreadDemo();
+		td.run();
+		td1.run();
+
+	}
+
+}

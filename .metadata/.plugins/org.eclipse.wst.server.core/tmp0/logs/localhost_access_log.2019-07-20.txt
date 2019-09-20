@@ -1,0 +1,4 @@
+127.0.0.1 - - [20/Jul/2019:23:35:52 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [20/Jul/2019:23:35:56 +0530] "GET /spring-mvc-demo/ HTTP/1.1" 200 145
+0:0:0:0:0:0:0:1 - - [20/Jul/2019:23:35:58 +0530] "GET /spring-mvc-demo/showForm HTTP/1.1" 200 273
+0:0:0:0:0:0:0:1 - - [20/Jul/2019:23:36:05 +0530] "GET /spring-mvc-demo/processForm?studentName=Raghu HTTP/1.1" 200 181

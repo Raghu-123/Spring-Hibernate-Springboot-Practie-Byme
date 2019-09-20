@@ -1,0 +1,24 @@
+package com.raghu.practice.threads;
+
+public class EvenOddInThreads extends Thread {
+ 
+	@Override
+	public void run() {
+		
+	
+		
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		EvenOddInThreads eoit = new EvenOddInThreads();
+		EvenOddInThreads eoit1 = new EvenOddInThreads();
+		
+		eoit.start();
+		eoit1.start();
+
+	}
+
+}

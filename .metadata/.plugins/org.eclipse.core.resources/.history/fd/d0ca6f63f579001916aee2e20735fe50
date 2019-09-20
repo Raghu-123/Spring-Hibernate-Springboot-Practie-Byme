@@ -1,0 +1,45 @@
+package com.raghu.practice.threads;
+
+public class EvenOddInThreads extends Thread {
+public int MAX_NUNBERS = 10;
+static volatile int number = 1;
+static Object lock=new Object();
+	@Override
+	public void run() {
+		
+		while(number < MAX_NUNBERS) {
+		//synchronized (EvenOddInThreads.class) {
+			
+			printnumber(number);
+			
+			
+			
+		try {
+			Thread.currentThread().wait();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		//}
+		}
+		}
+		
+	}
+	public synchronized void printnumber(int num) {
+		
+		System.out.println("Current Number is :"+num);
+		number++;
+		Thread.currentThread().notify();
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		EvenOddInThreads eoit = new EvenOddInThreads();
+		EvenOddInThreads eoit1 = new EvenOddInThreads();
+		
+		eoit.start();
+		eoit1.start();
+
+	}
+
+}

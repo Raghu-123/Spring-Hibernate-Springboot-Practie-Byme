@@ -1,0 +1,58 @@
+package com.raghu.springboot.cruddemo.dao;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.Query;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.raghu.springboot.cruddemo.entity.Employee;
+
+@Repository
+public class EmployeeDAOJpaImpl implements EmployeeDAO {
+	
+	private EntityManager entityManager;
+	
+	@Autowired
+	public EmployeeDAOJpaImpl(EntityManager theEntityManager) {
+		entityManager = theEntityManager;
+	}
+
+	@Override
+	public List<Employee> findAll() {
+		
+		//create a query
+		
+		Query query = entityManager.createQuery("from Employee ");
+				
+		//execute a query
+		List<Employee> theEmployees = query.getResultList();
+				
+		//return the result list
+				
+		return theEmployees;
+	}
+
+	@Override
+	public Employee findById(int theId) {
+		
+		Employee theEmployee = entityManager.find(Employee.class, theId);
+		
+		return theEmployee;
+	}
+
+	@Override
+	public void save(Employee employee) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void deleteById(int theId) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

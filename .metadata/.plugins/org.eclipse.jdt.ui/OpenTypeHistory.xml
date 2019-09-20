@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=spring-security-demo-02-basic-security/\/Users\/apple\/.m2\/repository\/org\/springframework\/security\/spring-security-web\/5.1.6.RELEASE\/spring-security-web-5.1.6.RELEASE.jar&lt;org.springframework.security.web.context(AbstractSecurityWebApplicationInitializer.class[AbstractSecurityWebApplicationInitializer" modifiers="1057" timestamp="1566755344000"/>
+    <typeInfo handle="=spring-security-demo-02-basic-security/\/Users\/apple\/.m2\/repository\/org\/springframework\/security\/spring-security-config\/5.1.6.RELEASE\/spring-security-config-5.1.6.RELEASE.jar&lt;org.springframework.security.config.annotation.web.configuration(WebSecurityConfigurerAdapter.class[WebSecurityConfigurerAdapter" modifiers="1057" timestamp="1566755459000"/>
+    <typeInfo handle="=spring-crm-rest/\/Library\/Java\/JavaVirtualMachines\/jdk-11.0.2.jdk\/Contents\/Home\/lib\/jrt-fs.jar`java.base&lt;java.lang(RuntimeException.class[RuntimeException" modifiers="33" timestamp="1547800533000"/>
+    <typeInfo handle="=22-jpa-cruddemo/src\/main\/java&lt;com.raghu.springboot.cruddemo.dao{EmployeeDAO.java[EmployeeDAO" modifiers="513" timestamp="1568309465000"/>
+    <typeInfo handle="=23-spring-data-jpa-cruddemo/\/Users\/apple\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.1.10.RELEASE\/spring-data-jpa-2.1.10.RELEASE.jar&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1568229172000"/>
+</typeInfoHistroy>
